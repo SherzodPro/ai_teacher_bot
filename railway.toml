@@ -1,0 +1,6 @@
+[build]
+builder = "nixpacks"
+
+[deploy]
+startCommand = "python ai_teacher_bot.py"
+restartPolicyType = "always"
